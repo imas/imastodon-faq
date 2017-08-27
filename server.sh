@@ -2,6 +2,6 @@
 
 set -eu
 
-cd $(dirname $BASH_SOURCE)
+cd $(dirname ${BASH_SOURCE:-$0})
 
 hugo server --buildDrafts --watch
