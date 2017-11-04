@@ -7,3 +7,5 @@ weight = 10
 ![getting-started-2](todon2.png?width=720px)
 ![getting-started-3](todon3.png?width=720px)
 ![getting-started-4](todon4.png?width=720px)
+![getting-started-5](todon5.png?width=720px)
+![getting-started-6](todon6.png?width=720px)
