@@ -1,8 +1,8 @@
 +++
-title = "逆引きFAQ"
+title = "困ったときには"
 description = ""
 weight = 90
-alwaysopen = true
+alwaysopen = false
 +++
 
 {{% children %}}
