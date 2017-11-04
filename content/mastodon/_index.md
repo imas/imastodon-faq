@@ -1,7 +1,7 @@
 +++
 title = "マストドンとは？"
 description = ""
-weight = 20
+weight = 1
 alwaysopen = false
 +++
 
