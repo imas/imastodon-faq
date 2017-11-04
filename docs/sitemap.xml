@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://faq.imastodon.net/getting-started/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/mute/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/block/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/mastodon/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/visibility/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/cw/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/nsfw/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/bot/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/instance/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/want/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/_header/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/favorite-tag/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/</loc>
+  </url>
+  
+</urlset>

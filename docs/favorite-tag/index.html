@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="generator" content="Hugo 0.26" />
+    <meta name="description" content="">
+
+
+    <title>お気に入りタグと実況 :: アイマストドンFAQ</title>
+    <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
+    <link href="/css/nucleus.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/hybrid.css" rel="stylesheet">
+    <link href="/css/featherlight.min.css" rel="stylesheet">
+    <link href="/css/horsey.css" rel="stylesheet">
+    
+    <link href="/css/theme.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/jquery-2.x.min.js"></script>
+    <style type="text/css">
+      :root #header + #content > #left > #rlblock_left {
+        display:none !important;
+      }
+    </style>
+
+    
+
+    
+
+  </head>
+  <body class="" data-url="/favorite-tag/">
+    <nav id="sidebar" class="">
+
+
+
+
+
+<div class="highlightable">
+  <div id="header-wrapper">
+    <div id="header">
+       
+	<p>アイマストドンFAQ</p>
+ 
+
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fa fa-search"></i></label>
+    <input data-search-input id="search-by" type="text" placeholder="Search...">
+    <span data-search-clear=""><i class="fa fa-close"></i></span>
+</div>
+<script type="text/javascript" src="/js/lunr.min.js"></script>
+<script type="text/javascript" src="/js/horsey.js"></script>
+<script type="text/javascript">
+    var baseurl = "http:\/\/faq.imastodon.net\/";
+</script>
+<script type="text/javascript" src="/js/search.js"></script>
+
+    
+  </div>
+
+  
+    <ul class="topics">
+        
+            <li data-nav-id="/" class="dd-item">
+            <a href="/"><i class="fa fa-fw fa-home"></i></a>
+            </li>
+        
+        
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/getting-started/" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/getting-started/">
+        <span>アイマストドン　かんたんガイド</span>
+
+        
+        
+
+        
+      </a>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/gyakubiki-faq/" class="dd-item 
+        
+        
+        parent
+        ">
+      <a href="/gyakubiki-faq/">
+        <span>逆引きFAQ</span>
+
+        
+        
+
+          
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
+          
+
+        
+
+        
+      </a>
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gyakubiki-faq/mute/" class="dd-item
+     
+      ">
+        <a href="/gyakubiki-faq/mute/">
+        <span>Q.特定の単語をミュートしたい！</span> 
+        
+        </a></li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gyakubiki-faq/block/" class="dd-item
+     
+      ">
+        <a href="/gyakubiki-faq/block/">
+        <span>Q.ユーザのブロック・ミュートをしたい！</span> 
+        
+        </a></li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gyakubiki-faq/visibility/" class="dd-item
+     
+      ">
+        <a href="/gyakubiki-faq/visibility/">
+        <span>Q.知らないユーザーに投稿を見られたくない！Twitterでいう非公開アカウントにしたい！</span> 
+        
+        </a></li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gyakubiki-faq/cw/" class="dd-item
+     
+      ">
+        <a href="/gyakubiki-faq/cw/">
+        <span>Q.ネタバレ防止投稿がしたい！</span> 
+        
+        </a></li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gyakubiki-faq/nsfw/" class="dd-item
+     
+      ">
+        <a href="/gyakubiki-faq/nsfw/">
+        <span>Q.写真を隠したい！</span> 
+        
+        </a></li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gyakubiki-faq/bot/" class="dd-item
+     
+      ">
+        <a href="/gyakubiki-faq/bot/">
+        <span>Q.アイマストドンでbot（自動投稿）がしたい！</span> 
+        
+        </a></li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/gyakubiki-faq/instance/" class="dd-item
+     
+      ">
+        <a href="/gyakubiki-faq/instance/">
+        <span>Q.アイマストドン以外のインスタンスから通知が色々来る！うざい！</span> 
+        
+        </a></li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/mastodon/" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/mastodon/">
+        <span>マストドンとは？</span>
+
+        
+        
+
+        
+      </a>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/want/" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/want/">
+        <span>アイマストドンに〇〇がしたい！</span>
+
+        
+        
+
+        
+      </a>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/favorite-tag/" class="dd-item 
+        parent
+        active
+        
+        ">
+      <a href="/favorite-tag/">
+        <span>お気に入りタグと実況</span>
+
+        
+        
+
+        
+      </a>
+              
+    </li>
+  
+ 
+
+          
+        
+
+        
+    </ul>
+    
+     
+    <section id="footer">
+      
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+        
+          <div id="top-bar">
+            
+
+            <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                <span id="sidebar-toggle-span">
+                  <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                </span>
+                <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                <span class="links">
+                
+
+
+
+
+ <a href='/'>アイマストドンFAQ</a> > お気に入りタグと実況
+
+ 
+
+   
+                </span>
+            </div>
+            <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#使い方">使い方</a>
+<ul>
+<li><a href="#未収載タグ付き投稿のタグtlへの表示">未収載タグ付き投稿のタグTLへの表示</a></li>
+<li><a href="#お気に入りタグ機能">お気に入りタグ機能</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+          </div>
+        
+        
+        <div id="body-inner">
+          
+            <h1>お気に入りタグと実況</h1>
+          
+
+
+
+
+
+
+<h2 id="使い方">使い方</h2>
+
+<h3 id="未収載タグ付き投稿のタグtlへの表示">未収載タグ付き投稿のタグTLへの表示</h3>
+
+<p><img src="favorite1.png" alt="favorite-1" />
+<img src="favorite2.png" alt="favorite-2" /></p>
+
+<h3 id="お気に入りタグ機能">お気に入りタグ機能</h3>
+
+<p>登録画面への行きかた</p>
+
+<p><img src="favorite3.png" alt="favorite-3" /></p>
+
+<p>タグの登録のしかた</p>
+
+<p><img src="favorite4.png" alt="favorite-4" /></p>
+
+<p>タグの自動入力のしかた</p>
+
+<p><img src="favorite5.png" alt="favorite-5" /></p>
+
+<p>※複数のタグを同時に自動入力することもできます</p>
+
+<p>(公開範囲はより狭いほうに設定されます)</p>
+
+<p><img src="favorite6.png" alt="favorite-6" /></p>
+
+<p>未収載で登録したタグであっても手動で公開範囲を設定しなおすことはできますので、「普段は未収載でやってるけど、たまにローカルTLで宣伝したいな」というときには公開範囲を手動で公開(public)にすればローカルTLに表示することができます。</p>
+
+<div class="notices warning" ><p>「配慮してください」との口実で自分以外の人に対して何かを&rdquo;強制&rdquo;することは認められません。</p>
+
+<p>親しい間柄で行われる&rdquo;注意&rdquo;との境界線は難しいものがあり一概には言えませんが、&rdquo;強制&rdquo;との線引きはしましょう。</p>
+
+<p>難しい場合には改定した投稿ガイドラインにも書いてありますようにまずは通報、どうしても相容れない場合にはミュート、ブロックにて対処していただけますようお願いします。</p>
+
+<p>もし、アイマストドンにこんな機能があったらいいのにという要望や不満、操作がわからないなど困ったことがありましたら、 @fusagiko か、または @imastodon にメッセージを送ってください。他の人に見られたくない場合には、公開範囲をダイレクトメッセージに設定すれば管理人にのみ届きます。</p>
+
+<p>参照： <a href="https://imastodon.net/about/more">im@stodon 投稿ガイド</a></p>
+</div>
+
+
+<div class="notices note" ><p>アイマストドンは今のところ主にローカルTLにおいて会話が交わされるような使い方がされています。</p>
+
+<p>そして、アイマストドンのベースになっている本家マストドンでは、未収載より狭い公開範囲のタグ付き投稿はタグTLには出ない仕組みになっていました。</p>
+
+<p>そのような状況下で、アイマス曲でDJをする方やそれを聴く方が使う「#imas_dj」、各種アイマス系ラジオやニコ生の実況が行われる「#デレラジ」や「#デレパ」、「#SideM」などのタグを用いての実況が行われると、ローカルTLがそれらの投稿のみで埋め尽くされてしまい、他の話題を話すことが出来ないという状況が見られ、またそれらに対する不満の声がありました。</p>
+
+<p>この問題についてどうすれば実況がしたい人も実況以外のことを話したい人も我慢をすることなく、技術および仕組みで解決することが出来るのかを考えた結果が、未収載タグ付き投稿のタグTLへの表示と、お気に入りタグ機能、そしてお気に入りタグの公開範囲設定機能です。</p>
+
+<p>みなさんが楽しくアイマストドンを使ってくださることを願っています。</p>
+</div>
+
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+
+
+
+      </div>
+    </div>
+
+    
+ 
+    
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+        
+            <a class="nav nav-prev" href="/want/" title="アイマストドンに〇〇がしたい！"> <i class="fa fa-chevron-left"></i></a>
+        
+        
+            <a class="nav nav-next" href="/getting-started/" title="アイマストドン　かんたんガイド" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+    </div>
+
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/js/clipboard.min.js"></script>
+    <script src="/js/featherlight.min.js"></script>
+    <script src="/js/html5shiv-printshiv.min.js"></script>
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/js/modernizr.custom.71422.js"></script>
+    <script src="/js/learn.js"></script>
+    <script src="/js/hugo-learn.js"></script>
+
+    
+    <link href="/mermaid/mermaid.css" type="text/css" rel="stylesheet"/>
+    <script src="/mermaid/mermaid.js"></script>
+    <script>mermaid.initialize({startOnLoad:true});</script>
+    
+
+    
+
+  </body>
+</html>

@@ -2,3 +2,5 @@ languageCode = "ja-jp"
 title = "アイマストドンFAQ"
 baseurl = "http://faq.imastodon.net/"
 theme = "docdock"
+# filesystem path to write files to
+publishDir = "docs"
