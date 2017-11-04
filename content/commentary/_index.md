@@ -1,6 +1,7 @@
 +++
 title = "実況のススメ"
 description = ""
+weight = 30
 alwaysopen = false
 +++
 

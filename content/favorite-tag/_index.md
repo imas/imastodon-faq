@@ -1,6 +1,7 @@
 +++
 title = "お気に入りタグ機能"
 description = ""
+weight = 50
 alwaysopen = false
 +++
 

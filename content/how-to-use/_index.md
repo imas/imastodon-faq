@@ -1,7 +1,7 @@
 +++
 title = "機能FAQ"
 description = ""
-weight = 15
+weight = 80
 alwaysopen = false
 +++
 
