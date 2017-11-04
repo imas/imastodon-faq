@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Q.公開範囲とは？ on アイマストドンFAQ</title>
+    <link>http://faq.imastodon.net/how-to-use/privacy/</link>
+    <description>Recent content in Q.公開範囲とは？ on アイマストドンFAQ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    
+	<atom:link href="http://faq.imastodon.net/how-to-use/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>公開</title>
+      <link>http://faq.imastodon.net/how-to-use/privacy/public/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/privacy/public/</guid>
+      <description>公開範囲設定の一つ。地球のアイコンが目印。
+公開タイムライン(連合タイムラインとローカルタイムライン)にトゥートを表示します。もっとも広い公開範囲で、他のインスタンスの連合タイムラインにも公開されます。また、ブーストすることが可能です。
+英語ではpublic、日本語(im@s)では「公開資料」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>未収載</title>
+      <link>http://faq.imastodon.net/how-to-use/privacy/unlisted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/privacy/unlisted/</guid>
+      <description>公開範囲設定の一つ。開いた南京錠のアイコンが目印。
+公開タイムライン(連合タイムラインとローカルタイムライン)にはトゥートを表示しません。但し、ハッシュタグタイムラインとフォロワーのホームタイムラインには表示され、個別のアカウントページにも表示されるためフォロワーでない人も見ることが出来ます。 また、ブーストすることが可能です。
+英語ではunlisted、日本語(im@s)では「社内資料」と呼びます。
+ハッシュタグタイムラインにタグ付きの未収載トゥートを表示するのはアイマストドン独自仕様です。通常、他のインスタンスではタグ付きの未収載トゥートはハッシュタグタイムラインに表示されません。
+ </description>
+    </item>
+    
+    <item>
+      <title>非公開</title>
+      <link>http://faq.imastodon.net/how-to-use/privacy/private/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/privacy/private/</guid>
+      <description>公開範囲設定の一つ。閉じた南京錠のアイコンが目印。
+フォロワーのホームタイムラインのみにトゥートが表示されます。フォローしていない人はそのトゥートを見ることが出来ませんが、後からでもフォローすることで見ることが出来ます。また、ブーストすることはできません。
+英語ではprivate、日本語(im@s)では「私的資料」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>ダイレクト</title>
+      <link>http://faq.imastodon.net/how-to-use/privacy/direct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/privacy/direct/</guid>
+      <description>公開範囲設定の一つ。封筒のアイコンが目印。
+自分と送信先のホームタイムライン・通知欄にのみ表示されます。
+Twitterではダイレクトメッセージは別枠でやり取りを行いますが、マストドンではタイムラインの中でやりとりします。通常の返信を行う要領で「@アカウントID」を含んだトゥートを書き、公開範囲設定からダイレクトを選んで送信します。複数の送信先を含むダイレクトトゥートや、既に行われている会話の途中からダイレクトに変更することも可能です。
+英語ではdirect、日本語(im@s)では「機密資料」と呼びます。</description>
+    </item>
+    
+  </channel>
+</rss>
