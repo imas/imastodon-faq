@@ -11,6 +11,40 @@
     
     
     <item>
+      <title>Q.連合タイムライン（FTL）とは？</title>
+      <link>http://faq.imastodon.net/how-to-use/ftl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/ftl/</guid>
+      <description>地球のアイコンが目印。
+アイマストドンにいる全ユーザー と、アイマストドンの誰かがフォローしている 他インスタンスのユーザー のトゥートのうち、公開範囲が 「公開」 になっているものが表示されます。
+英語表記での「Federated Time Line」の頭文字をとってFTLとも呼ばれます。日本語(im@s)では「ライブステージ」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>公開</title>
+      <link>http://faq.imastodon.net/how-to-use/privacy/public/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/privacy/public/</guid>
+      <description>公開範囲設定の一つ。地球のアイコンが目印。
+公開タイムライン(連合タイムラインとローカルタイムライン)にトゥートを表示します。もっとも広い公開範囲で、他のインスタンスの連合タイムラインにも公開されます。また、ブーストすることが可能です。
+英語ではpublic、日本語(im@s)では「公開資料」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>Q.ローカルタイムライン（LTL）とは？</title>
+      <link>http://faq.imastodon.net/how-to-use/ltl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/ltl/</guid>
+      <description>人々のアイコンが目印。
+アイマストドンにいる全ユーザーのトゥートのうち、公開範囲が 「公開」 になっているものが表示されるタイムラインです。
+アイマストドンの場合、ここでチャットのように会話が進んでることが多いです。困ったらここで流れに沿って会話するといいでしょう。
+英語表記での「Local Time Line」の頭文字をとってLTLとも呼ばれます。日本語(im@s)では「楽屋」と呼びます。</description>
+    </item>
+    
+    <item>
       <title>Q.特定の単語をミュートしたい！</title>
       <link>http://faq.imastodon.net/gyakubiki-faq/mute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,6 +54,30 @@
 例：
 なんとか|かんとか  「なんとか」または「かんとか」を含むトゥートがそのタイムラインに表示されなくなります。また、英大文字と小文字を区別しない仕様になっていますので、ご了承ください。
 以下分かる人向け JavaScriptの正規表現が使えます。正規表現の入力欄では、new RegExp(rawRegex, &amp;lsquo;i&amp;rsquo;);のrawRegexの部分を指定しています。詳しくは自分で調べてください。</description>
+    </item>
+    
+    <item>
+      <title>未収載</title>
+      <link>http://faq.imastodon.net/how-to-use/privacy/unlisted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/privacy/unlisted/</guid>
+      <description>公開範囲設定の一つ。開いた南京錠のアイコンが目印。
+公開タイムライン(連合タイムラインとローカルタイムライン)にはトゥートを表示しません。但し、ハッシュタグタイムラインとフォロワーのホームタイムラインには表示され、個別のアカウントページにも表示されるためフォロワーでない人も見ることが出来ます。 また、ブーストすることが可能です。
+英語ではunlisted、日本語(im@s)では「社内資料」と呼びます。
+ハッシュタグタイムラインにタグ付きの未収載トゥートを表示するのはアイマストドン独自仕様です。通常、他のインスタンスではタグ付きの未収載トゥートはハッシュタグタイムラインに表示されません。
+ </description>
+    </item>
+    
+    <item>
+      <title>Q.ホームタイムライン（HTL）とは？</title>
+      <link>http://faq.imastodon.net/how-to-use/htl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/htl/</guid>
+      <description>家のアイコンが目印。
+フォローしている人と自分の投稿のみが流れるタイムラインです。仲良くなった人は積極的にフォローしてフォロワーになることで、その人の「未収載」「非公開」トゥートが見れるようになります。
+英語表記での「Home Time Line」の頭文字をとってHTLとも呼ばれます。日本語(im@s)では「オフィス」と呼びます。</description>
     </item>
     
     <item>
@@ -33,6 +91,30 @@
     </item>
     
     <item>
+      <title>非公開</title>
+      <link>http://faq.imastodon.net/how-to-use/privacy/private/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/privacy/private/</guid>
+      <description>公開範囲設定の一つ。閉じた南京錠のアイコンが目印。
+フォロワーのホームタイムラインのみにトゥートが表示されます。フォローしていない人はそのトゥートを見ることが出来ませんが、後からでもフォローすることで見ることが出来ます。また、ブーストすることはできません。
+英語ではprivate、日本語(im@s)では「私的資料」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>Q.ハッシュタグタイムラインとは？</title>
+      <link>http://faq.imastodon.net/how-to-use/tagtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/tagtl/</guid>
+      <description>ハッシュタグのアイコンが目印。
+トゥートのハッシュタグをクリックすると現れる、そのハッシュタグが付いたトゥートのみを集めたタイムラインです。
+アイマストドンでは公開範囲が「公開」・「未収載」のものが表示されます。その他大多数のインスタンスでは「公開」トゥートのみが表示されます。
+「未収載」トゥートをハッシュタグタイムラインに表示させることで、LTLに大量のトゥートを流すことなくハッシュタグタイムライン上でニコ生実況などが行えるようになるため、アイマストドンではこのような仕様になっています。実況中などはカラムをピン留めして常に表示させておくと良いでしょう。
+ </description>
+    </item>
+    
+    <item>
       <title>Q.知らないユーザーに投稿を見られたくない！Twitterでいう非公開アカウントにしたい！</title>
       <link>http://faq.imastodon.net/gyakubiki-faq/visibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -40,6 +122,18 @@
       <guid>http://faq.imastodon.net/gyakubiki-faq/visibility/</guid>
       <description>トゥート欄下の地球マークから公開範囲で『非公開』を選んでトゥートします。
 それだけではフォローされると見ることが出来てしまうので、知らないユーザーから完全に見えないようにするには、「ユーザー設定」から「プロフィールを編集」で、「非公開アカウントにする」にチェックボックスを入れる必要があります。</description>
+    </item>
+    
+    <item>
+      <title>ダイレクト</title>
+      <link>http://faq.imastodon.net/how-to-use/privacy/direct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/privacy/direct/</guid>
+      <description>公開範囲設定の一つ。封筒のアイコンが目印。
+自分と送信先のホームタイムライン・通知欄にのみ表示されます。
+Twitterではダイレクトメッセージは別枠でやり取りを行いますが、マストドンではタイムラインの中でやりとりします。通常の返信を行う要領で「@アカウントID」を含んだトゥートを書き、公開範囲設定からダイレクトを選んで送信します。複数の送信先を含むダイレクトトゥートや、既に行われている会話の途中からダイレクトに変更することも可能です。
+英語ではdirect、日本語(im@s)では「機密資料」と呼びます。</description>
     </item>
     
     <item>
@@ -61,6 +155,17 @@
     </item>
     
     <item>
+      <title>Q.通知とは？</title>
+      <link>http://faq.imastodon.net/how-to-use/notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/notification/</guid>
+      <description>ベルのマークが目印。
+他のユーザーからのアクションがあったときに、お知らせが入ってくるところです。 Twitterでいうと通知欄です。リプライ(返信)、フォロー、お気に入り、ブーストのアクションが通知されます。
+日本語(im@s)では「ホワイトボード」と呼びます。</description>
+    </item>
+    
+    <item>
       <title>Q.アイマストドンでbot（自動投稿）がしたい！</title>
       <link>http://faq.imastodon.net/gyakubiki-faq/bot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -71,6 +176,18 @@
     </item>
     
     <item>
+      <title>Q.スタートカラムとは？</title>
+      <link>http://faq.imastodon.net/how-to-use/start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/start/</guid>
+      <description>アスタリスクが目印。
+マストドンのWebページで一番右に表示されているカラムです。初期状態では非表示になっているタイムラインへのリンクや、設定・ログアウトボタンなどが表示されています。
+このカラムは表示内容が柔軟に変わるカラムで、トゥートをクリックすると詳細はここに表示されますし、ユーザー名をクリックするとユーザーの詳細ページになります。また、ハッシュタグのリンクをクリックすればハッシュタグタイムラインに変わります。そのため、常に表示させたいタイムラインがある場合には、まずここに表示させてからピン留めで固定しましょう。
+ </description>
+    </item>
+    
+    <item>
       <title>Q.アイマストドン以外のインスタンスから通知が色々来る！うざい！</title>
       <link>http://faq.imastodon.net/gyakubiki-faq/instance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -78,6 +195,36 @@
       <guid>http://faq.imastodon.net/gyakubiki-faq/instance/</guid>
       <description>マストドンは違うインスタンスともつながることが出来ます。知り合いが他のインスタンスにいる場合などは、検索してフォローすれば、ホームタイムラインで投稿が流れるようになります。
 逆に他のインスタンスからの通知が嫌でしたら、そのユーザーをブロックしたり、「（他インスタンス）全体の非表示」をして対処しましょう。詳しくはインスタンスミュートの項をご覧ください。</description>
+    </item>
+    
+    <item>
+      <title>Q.カラムのピン留めとは？</title>
+      <link>http://faq.imastodon.net/how-to-use/pin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/pin/</guid>
+      <description>マストドンではカラム(1つ1つのタイムラインのこと)の並び順を変更したり、ピン留め(固定)して表示数を増やしたりできます。
+各カラムの右上にある歯車マークをクリックするとメニューが表示されます。メニューの右下にある「」「」ボタンでそのカラムの表示位置を左右に移動させることができます。また、メニューの左下にある「ピン留めする」をクリックするとそのカラムは常に表示された状態となり、右側に同じカラムがスタートカラムとして新たに表示されます。既にピン留めされているカラムでは「ピン留めを外す」となっていて、クリックするとそのカラムは非表示になります。</description>
+    </item>
+    
+    <item>
+      <title>Q.トゥートとは？</title>
+      <link>http://faq.imastodon.net/how-to-use/toot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/toot/</guid>
+      <description>マストドンへの投稿のことを指します。Twitterで言うところのtweetです。
+日本語(im@s)では「あふぅ」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>Q.ブースト（BT）とは？</title>
+      <link>http://faq.imastodon.net/how-to-use/boost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/boost/</guid>
+      <description>投稿をフォローしているユーザーに再度拡散することを指します。Twitterで言うところのリツイートです。
+日本語(im@s)では「わかるわ」と呼びます。</description>
     </item>
     
     <item>

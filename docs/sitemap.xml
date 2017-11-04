@@ -3,19 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://faq.imastodon.net/getting-started/</loc>
-  </url>
-  
-  <url>
-    <loc>http://faq.imastodon.net/gyakubiki-faq/mute/</loc>
-  </url>
-  
-  <url>
-    <loc>http://faq.imastodon.net/gyakubiki-faq/</loc>
-  </url>
-  
-  <url>
-    <loc>http://faq.imastodon.net/gyakubiki-faq/block/</loc>
+    <loc>http://faq.imastodon.net/how-to-use/ftl/</loc>
   </url>
   
   <url>
@@ -23,7 +11,51 @@
   </url>
   
   <url>
+    <loc>http://faq.imastodon.net/how-to-use/privacy/public/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/ltl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/mute/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/getting-started/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/privacy/unlisted/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/htl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/block/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/privacy/private/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/tagtl/</loc>
+  </url>
+  
+  <url>
     <loc>http://faq.imastodon.net/gyakubiki-faq/visibility/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/privacy/direct/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/commentary/</loc>
   </url>
   
   <url>
@@ -35,11 +67,47 @@
   </url>
   
   <url>
+    <loc>http://faq.imastodon.net/how-to-use/notification/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/favorite-tag/</loc>
+  </url>
+  
+  <url>
     <loc>http://faq.imastodon.net/gyakubiki-faq/bot/</loc>
   </url>
   
   <url>
+    <loc>http://faq.imastodon.net/how-to-use/start/</loc>
+  </url>
+  
+  <url>
     <loc>http://faq.imastodon.net/gyakubiki-faq/instance/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/pin/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/toot/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/boost/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/gyakubiki-faq/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/privacy/</loc>
   </url>
   
   <url>
@@ -58,10 +126,6 @@
   <url>
     <loc>http://faq.imastodon.net/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://faq.imastodon.net/favorite-tag/</loc>
   </url>
   
   <url>
