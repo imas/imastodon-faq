@@ -20,10 +20,10 @@ $ git clone https://github.com/imas/imastodon-faq.git
 $ git submodule update --init --recursive
 ```
 
-その後、 `server.sh`, `server.bat` を実行するとページをテストできます。
+その後、 `server.sh` もしくは `server.bat` を実行するとページをテストできます。
 
-ビルドする場合 `gh-pages` ブランチを `/public` にcloneしてから、 `build.sh`, `build.bat` の実行を行ってください。
-（submoduleにはしていないため）
+Pull Requestを行う場合、ビルドは運営チームで行うため、内容の変更のみを行って送ってください。
+どうしても手元でビルドしたい場合、 `build.sh` もしくは `build.bat` の実行を行ってください。
 
 ## テーマ
 
