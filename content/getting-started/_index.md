@@ -1,7 +1,9 @@
 +++
 title = "アイマストドン　かんたんガイド"
+description = ""
+weight = 1
 +++
-![getting-started-1](todon1.png)
-![getting-started-2](todon2.png)
-![getting-started-3](todon3.png)
-![getting-started-4](todon4.png)
+![getting-started-1](todon1.png?width=720px)
+![getting-started-2](todon2.png?width=720px)
+![getting-started-3](todon3.png?width=720px)
+![getting-started-4](todon4.png?width=720px)
