@@ -1,7 +1,7 @@
 +++
-title = "Q.トゥートとは？"
+title = "トゥート"
 description = ""
-weight = 80
+weight = 10
 alwaysopen = true
 +++
 

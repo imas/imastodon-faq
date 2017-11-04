@@ -1,7 +1,7 @@
 +++
-title = "Q.ブースト（BT）とは？"
+title = "ブースト（BT）"
 description = ""
-weight = 90
+weight = 20
 alwaysopen = true
 +++
 
