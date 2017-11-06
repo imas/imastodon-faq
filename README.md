@@ -10,7 +10,7 @@ hugoをインストールします。
 テーマをsubmoduleで含むためsubmoduleも含めてcloneしてください。
 
 ```
-$ git --recursive clone https://github.com/imas/imastodon-faq.git
+$ git clone --recursive https://github.com/imas/imastodon-faq.git
 ```
 
 もしくは
