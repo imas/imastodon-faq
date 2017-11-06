@@ -3,19 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://faq.imastodon.net/how-to-use/ftl/</loc>
-  </url>
-  
-  <url>
     <loc>http://faq.imastodon.net/mastodon/</loc>
   </url>
   
   <url>
     <loc>http://faq.imastodon.net/how-to-use/privacy/public/</loc>
-  </url>
-  
-  <url>
-    <loc>http://faq.imastodon.net/how-to-use/ltl/</loc>
   </url>
   
   <url>
@@ -27,11 +19,19 @@
   </url>
   
   <url>
+    <loc>http://faq.imastodon.net/how-to-use/toot/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/unique-feature/images/</loc>
+  </url>
+  
+  <url>
     <loc>http://faq.imastodon.net/how-to-use/privacy/unlisted/</loc>
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/how-to-use/htl/</loc>
+    <loc>http://faq.imastodon.net/how-to-use/column/ftl/</loc>
   </url>
   
   <url>
@@ -39,11 +39,23 @@
   </url>
   
   <url>
+    <loc>http://faq.imastodon.net/how-to-use/boost/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/column/ltl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/unique-feature/avater-with-privacy-icon/</loc>
+  </url>
+  
+  <url>
     <loc>http://faq.imastodon.net/how-to-use/privacy/private/</loc>
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/how-to-use/tagtl/</loc>
+    <loc>http://faq.imastodon.net/how-to-use/cw/</loc>
   </url>
   
   <url>
@@ -55,7 +67,19 @@
   </url>
   
   <url>
+    <loc>http://faq.imastodon.net/how-to-use/column/htl/</loc>
+  </url>
+  
+  <url>
     <loc>http://faq.imastodon.net/commentary/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/unique-feature/unlisted-tagged/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/nsfw/</loc>
   </url>
   
   <url>
@@ -63,15 +87,19 @@
   </url>
   
   <url>
+    <loc>http://faq.imastodon.net/how-to-use/column/tagtl/</loc>
+  </url>
+  
+  <url>
     <loc>http://faq.imastodon.net/gyakubiki-faq/nsfw/</loc>
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/how-to-use/notification/</loc>
+    <loc>http://faq.imastodon.net/unique-feature/favourite-tag/</loc>
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/favorite-tag/</loc>
+    <loc>http://faq.imastodon.net/how-to-use/column/notification/</loc>
   </url>
   
   <url>
@@ -79,7 +107,11 @@
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/how-to-use/start/</loc>
+    <loc>http://faq.imastodon.net/how-to-use/column/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/column/start/</loc>
   </url>
   
   <url>
@@ -91,7 +123,7 @@
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/how-to-use/toot/</loc>
+    <loc>http://faq.imastodon.net/unique-feature/</loc>
   </url>
   
   <url>
@@ -99,19 +131,15 @@
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/how-to-use/boost/</loc>
-  </url>
-  
-  <url>
     <loc>http://faq.imastodon.net/gyakubiki-faq/</loc>
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/how-to-use/privacy/</loc>
+    <loc>http://faq.imastodon.net/want/</loc>
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/want/</loc>
+    <loc>http://faq.imastodon.net/how-to-use/privacy/</loc>
   </url>
   
   <url>
