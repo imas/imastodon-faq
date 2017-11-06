@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アイマストドンの独自機能・仕様 on アイマストドンFAQ</title>
+    <link>http://faq.imastodon.net/unique-feature/</link>
+    <description>Recent content in アイマストドンの独自機能・仕様 on アイマストドンFAQ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    
+	<atom:link href="http://faq.imastodon.net/unique-feature/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>投稿への添付画像について</title>
+      <link>http://faq.imastodon.net/unique-feature/images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/unique-feature/images/</guid>
+      <description>png → jpg変換 アイマストドンにおいてはスマートフォンのスクリーンショットなどが多く投稿されるため、アップロードされた画像を一旦jpgへ変換し、ファイルサイズが小さい方の形式で保存します。
+透過があるpngの場合はpngのまま保存するほか、jpgはjpgのまま保存します。
+    ファイルサイズがpng&amp;gt;jpg ファイルサイズがpng&amp;lt;jpg     透過がないpng jpgに変換して保存 pngのまま保存   透過があるpng 変換しない 変換しない   jpg 変換しない 変換しない    画像サイズ上限の変更 本家マストドンでは投稿に添付する画像サイズの上限が長辺1280pxまでとなっており、それを超えるサイズの画像は縮小されます。
+アイマストドンにおいてはサイズの上限を長辺1920pxまでに変更しているため、フルHDの画像を添付することができます。</description>
+    </item>
+    
+    <item>
+      <title>公開範囲の表示</title>
+      <link>http://faq.imastodon.net/unique-feature/avater-with-privacy-icon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/unique-feature/avater-with-privacy-icon/</guid>
+      <description>ホームTL、通知、タグTLにおいて、公開範囲が未収載未満の投稿に公開範囲アイコンが表示されます。 </description>
+    </item>
+    
+    <item>
+      <title>未収載タグ付き投稿の表示</title>
+      <link>http://faq.imastodon.net/unique-feature/unlisted-tagged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/unique-feature/unlisted-tagged/</guid>
+      <description>アイマストドンでは独自の仕様として、未収載タグ付きの投稿がタグTLに表示されます。
+これはアイマストドン独自の動作であり、他のインスタンスのタグTLでは公開範囲が公開であるもののみが表示されます。 </description>
+    </item>
+    
+    <item>
+      <title>お気に入りタグ機能</title>
+      <link>http://faq.imastodon.net/unique-feature/favourite-tag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/unique-feature/favourite-tag/</guid>
+      <description> お気に入りタグ機能は、実況などでよく使うタグを登録し、タグと公開範囲を自動設定することができます。
+登録画面への行きかた ユーザ設定の中に存在するお気に入りタグの登録画面へ、下記の歯車アイコンから直接移動することができます。
+タグの登録のしかた 登録したいタグを入力し、公開範囲を選んで「登録する」ボタンを押します。
+現在の仕様では同じタグを重複して登録することはできません。
+ タグの自動入力のしかた 登録したお気に入りタグの右にあるアイコンをクリックすると、そのタグおよび公開範囲が自動設定されます。
+※複数のタグを同時に自動入力することもできます。 (公開範囲はより狭いほうに設定されます)
+未収載で登録したタグであっても手動で公開範囲を設定しなおすことはできますので、「普段は未収載でやってるけど、たまにローカルTLで宣伝したいな」というときには公開範囲を手動で公開(public)に設定すればローカルTLに表示させることができます。
+その場合、投稿後は自動で未収載に再設定されます。
+ </description>
+    </item>
+    
+  </channel>
+</rss>

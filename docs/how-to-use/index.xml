@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>機能FAQ on アイマストドンFAQ</title>
+    <title>機能・用語解説 on アイマストドンFAQ</title>
     <link>http://faq.imastodon.net/how-to-use/</link>
-    <description>Recent content in 機能FAQ on アイマストドンFAQ</description>
+    <description>Recent content in 機能・用語解説 on アイマストドンFAQ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     
@@ -11,87 +11,7 @@
     
     
     <item>
-      <title>Q.連合タイムライン（FTL）とは？</title>
-      <link>http://faq.imastodon.net/how-to-use/ftl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://faq.imastodon.net/how-to-use/ftl/</guid>
-      <description>地球のアイコンが目印。
-アイマストドンにいる全ユーザー と、アイマストドンの誰かがフォローしている 他インスタンスのユーザー のトゥートのうち、公開範囲が 「公開」 になっているものが表示されます。
-英語表記での「Federated Time Line」の頭文字をとってFTLとも呼ばれます。日本語(im@s)では「ライブステージ」と呼びます。</description>
-    </item>
-    
-    <item>
-      <title>Q.ローカルタイムライン（LTL）とは？</title>
-      <link>http://faq.imastodon.net/how-to-use/ltl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://faq.imastodon.net/how-to-use/ltl/</guid>
-      <description>人々のアイコンが目印。
-アイマストドンにいる全ユーザーのトゥートのうち、公開範囲が 「公開」 になっているものが表示されるタイムラインです。
-アイマストドンの場合、ここでチャットのように会話が進んでることが多いです。困ったらここで流れに沿って会話するといいでしょう。
-英語表記での「Local Time Line」の頭文字をとってLTLとも呼ばれます。日本語(im@s)では「楽屋」と呼びます。</description>
-    </item>
-    
-    <item>
-      <title>Q.ホームタイムライン（HTL）とは？</title>
-      <link>http://faq.imastodon.net/how-to-use/htl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://faq.imastodon.net/how-to-use/htl/</guid>
-      <description>家のアイコンが目印。
-フォローしている人と自分の投稿のみが流れるタイムラインです。仲良くなった人は積極的にフォローしてフォロワーになることで、その人の「未収載」「非公開」トゥートが見れるようになります。
-英語表記での「Home Time Line」の頭文字をとってHTLとも呼ばれます。日本語(im@s)では「オフィス」と呼びます。</description>
-    </item>
-    
-    <item>
-      <title>Q.ハッシュタグタイムラインとは？</title>
-      <link>http://faq.imastodon.net/how-to-use/tagtl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://faq.imastodon.net/how-to-use/tagtl/</guid>
-      <description>ハッシュタグのアイコンが目印。
-トゥートのハッシュタグをクリックすると現れる、そのハッシュタグが付いたトゥートのみを集めたタイムラインです。
-アイマストドンでは公開範囲が「公開」・「未収載」のものが表示されます。その他大多数のインスタンスでは「公開」トゥートのみが表示されます。
-「未収載」トゥートをハッシュタグタイムラインに表示させることで、LTLに大量のトゥートを流すことなくハッシュタグタイムライン上でニコ生実況などが行えるようになるため、アイマストドンではこのような仕様になっています。実況中などはカラムをピン留めして常に表示させておくと良いでしょう。
- </description>
-    </item>
-    
-    <item>
-      <title>Q.通知とは？</title>
-      <link>http://faq.imastodon.net/how-to-use/notification/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://faq.imastodon.net/how-to-use/notification/</guid>
-      <description>ベルのマークが目印。
-他のユーザーからのアクションがあったときに、お知らせが入ってくるところです。 Twitterでいうと通知欄です。リプライ(返信)、フォロー、お気に入り、ブーストのアクションが通知されます。
-日本語(im@s)では「ホワイトボード」と呼びます。</description>
-    </item>
-    
-    <item>
-      <title>Q.スタートカラムとは？</title>
-      <link>http://faq.imastodon.net/how-to-use/start/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://faq.imastodon.net/how-to-use/start/</guid>
-      <description>アスタリスクが目印。
-マストドンのWebページで一番右に表示されているカラムです。初期状態では非表示になっているタイムラインへのリンクや、設定・ログアウトボタンなどが表示されています。
-このカラムは表示内容が柔軟に変わるカラムで、トゥートをクリックすると詳細はここに表示されますし、ユーザー名をクリックするとユーザーの詳細ページになります。また、ハッシュタグのリンクをクリックすればハッシュタグタイムラインに変わります。そのため、常に表示させたいタイムラインがある場合には、まずここに表示させてからピン留めで固定しましょう。
- </description>
-    </item>
-    
-    <item>
-      <title>Q.カラムのピン留めとは？</title>
-      <link>http://faq.imastodon.net/how-to-use/pin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://faq.imastodon.net/how-to-use/pin/</guid>
-      <description>マストドンではカラム(1つ1つのタイムラインのこと)の並び順を変更したり、ピン留め(固定)して表示数を増やしたりできます。
-各カラムの右上にある歯車マークをクリックするとメニューが表示されます。メニューの右下にある「」「」ボタンでそのカラムの表示位置を左右に移動させることができます。また、メニューの左下にある「ピン留めする」をクリックするとそのカラムは常に表示された状態となり、右側に同じカラムがスタートカラムとして新たに表示されます。既にピン留めされているカラムでは「ピン留めを外す」となっていて、クリックするとそのカラムは非表示になります。</description>
-    </item>
-    
-    <item>
-      <title>Q.トゥートとは？</title>
+      <title>トゥート</title>
       <link>http://faq.imastodon.net/how-to-use/toot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -101,13 +21,47 @@
     </item>
     
     <item>
-      <title>Q.ブースト（BT）とは？</title>
+      <title>ブースト（BT）</title>
       <link>http://faq.imastodon.net/how-to-use/boost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://faq.imastodon.net/how-to-use/boost/</guid>
       <description>投稿をフォローしているユーザーに再度拡散することを指します。Twitterで言うところのリツイートです。
 日本語(im@s)では「わかるわ」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>CW</title>
+      <link>http://faq.imastodon.net/how-to-use/cw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/cw/</guid>
+      <description>CWはコンテンツワーニングの略です。
+トゥート入力欄下のCWボタンを押すことで、前書き欄を表示して注意文を書くことが出来ます。CWをオンにした状態でトゥートすると、タイムラインでは注意文と「もっと見る」ボタンのみが表示され、本文は隠されます。見たい人は各自でもっと見るボタンをクリックして本文を展開することで閲覧できます。Mastodonは500文字まで投稿可能なので、本文が長くなってしまった時や、ネタバレや際どいネタなどを投稿するときに使いましょう。
+アイマストドンかんたんガイドのページに画像による分かりやすい説明があります。
+ </description>
+    </item>
+    
+    <item>
+      <title>NSFW</title>
+      <link>http://faq.imastodon.net/how-to-use/nsfw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/nsfw/</guid>
+      <description>Not Safe For Workの略。「仕事中に見るには適さないよ」という意味。
+NSFWは画像や動画の閲覧注意警告のことです。画像や動画を投稿する際に、入力欄下のNSFWボタン（目玉のアイコン）を押すことで、画像は黒く隠された状態で投稿されます。見たい人は各自で画像をクリックすることで閲覧できます。ネタバレになるような画像のみならず、隠されるとつい見たくなってしまう心理を利用した飯テロなどにも使用されています。
+アイマストドンかんたんガイドのページに画像による分かりやすい説明があります。
+ </description>
+    </item>
+    
+    <item>
+      <title>カラムの移動・ピン留め</title>
+      <link>http://faq.imastodon.net/how-to-use/pin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/pin/</guid>
+      <description>マストドンではカラムの並び順を変更したり、ピン留め(固定)して表示数を増やしたりできます。
+各カラムの右上にある歯車マークをクリックするとメニューが表示されます。メニューの右下にある「」「」ボタンでそのカラムの表示位置を左右に移動させることができます。また、メニューの左下にある「ピン留めする」をクリックするとそのカラムは常に表示された状態となり、右側に同じカラムがスタートカラムとして新たに表示されます。既にピン留めされているカラムでは「ピン留めを外す」となっていて、クリックするとそのカラムは非表示になります。</description>
     </item>
     
   </channel>

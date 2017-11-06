@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>カラム・タイムライン on アイマストドンFAQ</title>
+    <link>http://faq.imastodon.net/how-to-use/column/</link>
+    <description>Recent content in カラム・タイムライン on アイマストドンFAQ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    
+	<atom:link href="http://faq.imastodon.net/how-to-use/column/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>連合タイムライン（FTL）</title>
+      <link>http://faq.imastodon.net/how-to-use/column/ftl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/column/ftl/</guid>
+      <description>地球のアイコンが目印。
+アイマストドンにいる全ユーザー と、アイマストドンの誰かがフォローしている 他インスタンスのユーザー のトゥートのうち、公開範囲が 「公開」 になっているものが表示されます。
+英語表記での「Federated Time Line」の頭文字をとってFTLとも呼ばれます。日本語(im@s)では「ライブステージ」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>ローカルタイムライン（LTL）</title>
+      <link>http://faq.imastodon.net/how-to-use/column/ltl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/column/ltl/</guid>
+      <description>人々のアイコンが目印。
+アイマストドンにいる全ユーザーのトゥートのうち、公開範囲が 「公開」 になっているものが表示されるタイムラインです。
+アイマストドンの場合、ここでチャットのように会話が進んでることが多いです。困ったらここで流れに沿って会話するといいでしょう。
+英語表記での「Local Time Line」の頭文字をとってLTLとも呼ばれます。日本語(im@s)では「楽屋」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>ホームタイムライン（HTL）</title>
+      <link>http://faq.imastodon.net/how-to-use/column/htl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/column/htl/</guid>
+      <description>家のアイコンが目印。
+フォローしている人と自分の投稿のみが流れるタイムラインです。仲良くなった人は積極的にフォローしてフォロワーになることで、その人の「未収載」「非公開」トゥートが見れるようになります。(詳しくは公開範囲を参照)
+英語表記での「Home Time Line」の頭文字をとってHTLとも呼ばれます。日本語(im@s)では「オフィス」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>ハッシュタグタイムライン</title>
+      <link>http://faq.imastodon.net/how-to-use/column/tagtl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/column/tagtl/</guid>
+      <description>ハッシュタグのアイコンが目印。
+トゥートのハッシュタグをクリックすると現れる、そのハッシュタグが付いたトゥートのみを集めたタイムラインです。
+アイマストドンでは公開範囲が「公開」・「未収載」のものが表示されます。その他大多数のインスタンスでは「公開」トゥートのみが表示されます。
+「未収載」トゥートをハッシュタグタイムラインに表示させることで、LTLに大量のトゥートを流すことなくハッシュタグタイムライン上でニコ生実況などが行えるようになるため、アイマストドンではこのような仕様になっています。実況中などはカラムをピン留めして常に表示させておくと良いでしょう。
+ </description>
+    </item>
+    
+    <item>
+      <title>通知カラム</title>
+      <link>http://faq.imastodon.net/how-to-use/column/notification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/column/notification/</guid>
+      <description>ベルのマークが目印。
+他のユーザーからのアクションがあったときに、お知らせが入ってくるところです。 リプライ(返信)、フォロー、お気に入り、ブーストのアクションが通知されます。
+日本語(im@s)では「ホワイトボード」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>スタートカラム</title>
+      <link>http://faq.imastodon.net/how-to-use/column/start/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/column/start/</guid>
+      <description>アスタリスクが目印。
+マストドンのWebページで一番右に表示されているカラムです。初期状態では非表示になっているタイムラインへのリンクや、設定・ログアウトボタンなどが表示されています。
+このカラムは表示内容が柔軟に変わるカラムで、トゥートをクリックすると詳細はここに表示されますし、ユーザー名をクリックするとユーザーの詳細ページになります。また、ハッシュタグのリンクをクリックすればハッシュタグタイムラインに変わります。そのため、常に表示させたいタイムラインがある場合には、まずここに表示させてからピン留めで固定しましょう。
+ </description>
+    </item>
+    
+  </channel>
+</rss>
