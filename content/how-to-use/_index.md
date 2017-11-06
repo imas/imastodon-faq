@@ -1,5 +1,5 @@
 +++
-title = "機能FAQ"
+title = "機能・用語解説"
 description = ""
 weight = 80
 alwaysopen = false
