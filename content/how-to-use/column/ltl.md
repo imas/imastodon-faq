@@ -1,5 +1,5 @@
 +++
-title = "ローカルタイムライン（LTL）"
+title = "ローカルタイムライン(LTL)"
 description = ""
 weight = 20
 alwaysopen = true

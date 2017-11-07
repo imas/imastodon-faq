@@ -1,5 +1,5 @@
 +++
-title = "連合タイムライン（FTL）"
+title = "連合タイムライン(FTL)"
 description = ""
 weight = 10
 alwaysopen = true

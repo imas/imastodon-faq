@@ -1,5 +1,5 @@
 +++
-title = "ホームタイムライン（HTL）"
+title = "ホームタイムライン(HTL)"
 description = ""
 weight = 30
 alwaysopen = true
