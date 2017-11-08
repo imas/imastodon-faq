@@ -2,9 +2,12 @@
 title = "トゥート"
 description = ""
 weight = 10
-alwaysopen = true
+alwaysopen = false
 +++
 
 マストドンへの投稿のことを指します。Twitterで言うところのtweetです。
+
+マストドンでは1トゥートで最大500文字まで投稿でき、4枚までの画像または1つの動画を添付できます。
+また、[ハッシュタグ](../hashtag)をつけたり、[公開範囲](../privacy)を設定したりすることができます。
 
 日本語(im@s)では「あふぅ」と呼びます。

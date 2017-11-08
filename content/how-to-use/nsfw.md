@@ -2,7 +2,7 @@
 title = "NSFW"
 description = ""
 weight = 40
-alwaysopen = true
+alwaysopen = false
 +++
 
 Not Safe For Workの略。「仕事中に見るには適さないよ」という意味。
