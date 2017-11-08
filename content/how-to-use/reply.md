@@ -2,7 +2,7 @@
 title = "返信(リプライ)"
 description = ""
 weight = 14
-alwaysopen = true
+alwaysopen = false
 +++
 
 各[トゥート](../toot)の下部に表示されている<i class="fa fa-reply">返信マーク</i>をクリックすると、そのトゥートに対して返信(リプライ)することができます。

@@ -2,7 +2,7 @@
 title = "トゥート"
 description = ""
 weight = 10
-alwaysopen = true
+alwaysopen = false
 +++
 
 マストドンへの投稿のことを指します。Twitterで言うところのtweetです。

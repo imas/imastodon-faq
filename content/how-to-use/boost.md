@@ -2,7 +2,7 @@
 title = "ブースト(BT)"
 description = ""
 weight = 20
-alwaysopen = true
+alwaysopen = false
 +++
 
 各[トゥート](../toot)の下部に表示されている<i class="fa fa-retweet">ブーストマーク</i>をクリックすると、そのトゥートをブーストできます。

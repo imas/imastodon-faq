@@ -2,7 +2,7 @@
 title = "カラムの移動・ピン留め"
 description = ""
 weight = 70
-alwaysopen = true
+alwaysopen = false
 +++
 
 マストドンでは[カラム](../column)の並び順を変更したり、ピン留め(固定)して表示数を増やしたりできます。

@@ -2,7 +2,7 @@
 title = "非公開"
 description = ""
 weight = 20
-alwaysopen = true
+alwaysopen = false
 +++
 
 [公開範囲](../)設定の一つ。<i class="fa fa-lock">閉じた南京錠のアイコン</i>が目印。

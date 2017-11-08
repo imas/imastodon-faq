@@ -2,7 +2,7 @@
 title = "お気に入り"
 description = ""
 weight = 15
-alwaysopen = true
+alwaysopen = false
 +++
 
 各[トゥート](../toot)の下部に表示されている<i class="fa fa-star">星マーク</i>をクリックすると、そのトゥートをお気に入りに登録できます。

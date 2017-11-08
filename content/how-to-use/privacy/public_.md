@@ -2,7 +2,7 @@
 title = "公開"
 description = ""
 weight = 1
-alwaysopen = true
+alwaysopen = false
 +++
 
 [公開範囲](../)設定の一つ。<i class="fa fa-globe">地球のアイコン</i>が目印。

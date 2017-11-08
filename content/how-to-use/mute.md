@@ -2,7 +2,7 @@
 title = "ミュート"
 description = ""
 weight = 180
-alwaysopen = true
+alwaysopen = false
 +++
 
 自分の[タイムライン](../column)から、特定の要素（他のユーザー、他のインスタンス、キーワード）を取り除く（見えなくする）機能です。
