@@ -58,5 +58,15 @@
  </description>
     </item>
     
+    <item>
+      <title>アイマス語 (日本語(im@s))</title>
+      <link>http://faq.imastodon.net/unique-feature/imas-lang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/unique-feature/imas-lang/</guid>
+      <description> アイマストドン独自の言語設定です。これによりマストドンの機能の名称がそこはかとなくアイマスっぽいような気がする言葉になります。
+日本語・アイマス語対応表(一部)    日本語 アイマス語     連合タイムライン ライブステージ   ローカルタイムライン 楽屋   ホームタイムライン オフィス   トゥート あふぅ   お気に入り ティン   ブースト わかるわ   返信 Reあふぅ   お気に入りタグ スウィーティー☆なタグ   公開 公開資料   未収載 社内資料   非公開 私的資料   ダイレクト 機密資料    </description>
+    </item>
+    
   </channel>
 </rss>

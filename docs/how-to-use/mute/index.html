@@ -7,7 +7,7 @@
     <meta name="description" content="">
 
 
-    <title>アイマストドンの独自機能・仕様 :: アイマストドンFAQ</title>
+    <title>ミュート :: アイマストドンFAQ</title>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
     <link href="/css/nucleus.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
     
 
   </head>
-  <body class="" data-url="/unique-feature/">
+  <body class="" data-url="/how-to-use/mute/">
     <nav id="sidebar" class="">
 
 
@@ -155,8 +155,8 @@
   
     
     <li data-nav-id="/unique-feature/" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="/unique-feature/">
@@ -166,7 +166,7 @@
         
 
           
-            <i class="fa fa-angle-down fa-lg category-icon"></i>
+            <i class="fa fa-angle-right fa-lg category-icon"></i>
           
 
         
@@ -296,7 +296,7 @@
   
     
     <li data-nav-id="/how-to-use/" class="dd-item 
-        
+        parent
         
         
         ">
@@ -307,7 +307,7 @@
         
 
           
-            <i class="fa fa-angle-right fa-lg category-icon"></i>
+            <i class="fa fa-angle-down fa-lg category-icon"></i>
           
 
         
@@ -778,7 +778,7 @@
   
     
       <li data-nav-id="/how-to-use/mute/" class="dd-item
-     
+     active
       ">
         <a href="/how-to-use/mute/">
         <span>ミュート</span> 
@@ -1059,7 +1059,12 @@
 
 
 
- <a href='/'>アイマストドンFAQ</a> > アイマストドンの独自機能・仕様
+
+
+
+ <a href='/'>アイマストドンFAQ</a> > <a href='/how-to-use/'>機能・用語解説</a> > ミュート
+
+ 
 
  
 
@@ -1068,7 +1073,23 @@
             </div>
             <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#ユーザーミュート">ユーザーミュート</a></li>
+<li><a href="#ユーザーミュートの解除">ユーザーミュートの解除</a></li>
+<li><a href="#インスタンスミュート">インスタンスミュート</a></li>
+<li><a href="#キーワードミュート">キーワードミュート</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -1077,153 +1098,41 @@
         
         <div id="body-inner">
           
-            <h1>アイマストドンの独自機能・仕様</h1>
+            <h1>ミュート</h1>
           
 
 
 
 
-<p>アイマストドンには下記を始めとした各種の独自機能の追加があります。</p>
 
 
+<p>自分の<a href="../column">タイムライン</a>から、特定の要素（他のユーザー、他のインスタンス、キーワード）を取り除く（見えなくする）機能です。</p>
 
+<p>ミュートしたユーザーやインスタンスの<a href="../toot">トゥート</a>があなたには表示されなくなり、それらのユーザーが行う<a href="../boost">ブースト</a>、お気に入り、フォローなどのアクションがあなたに通知されなくなります。
+あなたのトゥートは、引き続きミュートされたユーザーやインスタンスへも表示されます。あなたがミュートした事実は、ミュートされたユーザーへは通知されません。</p>
 
+<h4 id="ユーザーミュート">ユーザーミュート</h4>
 
+<p>任意のユーザーへのミュートです。
+ミュートしたいユーザーのプロフィールを開き、『<i class="fa fa-bars dropdown__icon"></i>』ボタンから『ミュート』（日本語(im@s)の場合は『(アカウント名)は黙ってて！』）をクリックします。</p>
 
+<h4 id="ユーザーミュートの解除">ユーザーミュートの解除</h4>
 
+<p>『<a href="../column/start">スタート</a>』の『ナビゲーション』メニューから、『<i class="fa fa-volume-off column-link__icon">ミュートしたユーザー</i>』（日本語(im@s)の場合は『だまっとけ☆リスト』)を閲覧することができます。ミュートを解除したいユーザーをリストから探し、<i class="fa fa-volume-up column-link__icon">メガホンのアイコン</i>をクリックします。</p>
 
+<h4 id="インスタンスミュート">インスタンスミュート</h4>
 
+<p>アイマストドン以外の任意のインスタンスをまるごとミュートします。
+ミュートしたいインスタンスに属するユーザーのプロフィールを開き、投稿数左側の『<i class="fa fa-bars dropdown__icon"></i>』マークから『(インスタンスのドメイン)全体を非表示』をクリックします。</p>
 
+<h4 id="キーワードミュート">キーワードミュート</h4>
 
-
-
-<ul class="children children-li">
-	
-    
-    
-
-	
-		
-	
-		
-  
-
-
-<li>
-<a href="/unique-feature/images/" >投稿への添付画像について</a>
-</li>
-
-
-
-
-
-
-			
-		
-
-		
-			
-
-		
-	
-		
-  
-
-
-<li>
-<a href="/unique-feature/avater-with-privacy-icon/" >公開範囲の表示</a>
-</li>
-
-
-
-
-
-
-			
-		
-
-		
-			
-
-		
-	
-		
-  
-
-
-<li>
-<a href="/unique-feature/unlisted-tagged/" >未収載タグ付き投稿の表示</a>
-</li>
-
-
-
-
-
-
-			
-		
-
-		
-			
-
-		
-	
-		
-  
-
-
-<li>
-<a href="/unique-feature/favourite-tag/" >お気に入りタグ機能</a>
-</li>
-
-
-
-
-
-
-			
-		
-
-		
-			
-
-		
-	
-		
-  
-
-
-<li>
-<a href="/unique-feature/imas-lang/" >アイマス語 (日本語(im@s))</a>
-</li>
-
-
-
-
-
-
-			
-		
-
-		
-			
-
-		
-	
-
-	
-</ul>
-
-
-
-
+<p>詳しくは「<a href="../../gyakubiki-faq/mute">特定の単語をミュートしたい！</a>」をご覧ください。</p>
 
 
 <footer class=" footline" >
 	
 </footer>
-
-
 
 
 
@@ -1310,169 +1219,6 @@
             
                 
                     
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                        
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
                 
                 
 
@@ -1560,6 +1306,89 @@
                     
             
         
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
             
         
@@ -1825,53 +1654,6 @@
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
                     
                 
                 
@@ -1889,6 +1671,9 @@
             
                 
                     
+                        
+                        
+                    
                 
                 
 
@@ -1899,6 +1684,22 @@
                     
             
         
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
                     
                         
             
@@ -1980,6 +1781,38 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -2006,10 +1839,10 @@
 
 
         
-            <a class="nav nav-prev" href="/commentary/" title="実況のススメ"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/how-to-use/hashtag/" title="ハッシュタグ"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/unique-feature/images/" title="投稿への添付画像について" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/how-to-use/block/" title="ブロック" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
@@ -2036,3 +1869,4 @@
 
   </body>
 </html>
+

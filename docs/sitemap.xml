@@ -7,7 +7,7 @@
   </url>
   
   <url>
-    <loc>http://faq.imastodon.net/how-to-use/privacy/public/</loc>
+    <loc>http://faq.imastodon.net/how-to-use/privacy/public_/</loc>
   </url>
   
   <url>
@@ -32,6 +32,14 @@
   
   <url>
     <loc>http://faq.imastodon.net/how-to-use/column/ftl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/reply/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/favorite/</loc>
   </url>
   
   <url>
@@ -119,6 +127,10 @@
   </url>
   
   <url>
+    <loc>http://faq.imastodon.net/unique-feature/imas-lang/</loc>
+  </url>
+  
+  <url>
     <loc>http://faq.imastodon.net/how-to-use/pin/</loc>
   </url>
   
@@ -140,6 +152,18 @@
   
   <url>
     <loc>http://faq.imastodon.net/how-to-use/privacy/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/hashtag/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/mute/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/block/</loc>
   </url>
   
   <url>

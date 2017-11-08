@@ -12,10 +12,10 @@
     
     <item>
       <title>公開</title>
-      <link>http://faq.imastodon.net/how-to-use/privacy/public/</link>
+      <link>http://faq.imastodon.net/how-to-use/privacy/public_/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://faq.imastodon.net/how-to-use/privacy/public/</guid>
+      <guid>http://faq.imastodon.net/how-to-use/privacy/public_/</guid>
       <description>公開範囲設定の一つ。地球のアイコンが目印。
 公開タイムライン(連合タイムラインとローカルタイムライン)にトゥートを表示します。もっとも広い公開範囲で、他のインスタンスの連合タイムラインにも公開されます。また、ブーストすることが可能です。
 英語ではpublic、日本語(im@s)では「公開資料」と呼びます。</description>
@@ -40,6 +40,7 @@
       
       <guid>http://faq.imastodon.net/how-to-use/toot/</guid>
       <description>マストドンへの投稿のことを指します。Twitterで言うところのtweetです。
+マストドンでは1トゥートで最大500文字まで投稿でき、4枚までの画像または1つの動画を添付できます。 また、ハッシュタグをつけたり、公開範囲を設定したりすることができます。
 日本語(im@s)では「あふぅ」と呼びます。</description>
     </item>
     
@@ -64,12 +65,12 @@
       <description>公開範囲設定の一つ。開いた南京錠のアイコンが目印。
 公開タイムライン(連合タイムラインとローカルタイムライン)にはトゥートを表示しません。但し、ハッシュタグタイムラインとフォロワーのホームタイムラインには表示され、個別のアカウントページにも表示されるためフォロワーでない人も見ることが出来ます。 また、ブーストすることが可能です。
 英語ではunlisted、日本語(im@s)では「社内資料」と呼びます。
-ハッシュタグタイムラインにタグ付きの未収載トゥートを表示するのはアイマストドン独自仕様です。通常、他のインスタンスではタグ付きの未収載トゥートはハッシュタグタイムラインに表示されません。
+ハッシュタグタイムラインにタグ付きの未収載トゥートを表示するのはアイマストドン独自仕様です。通常、他のインスタンスではタグ付きの未収載トゥートはハッシュタグタイムラインに表示されません。詳しくは「未収載タグ付き投稿の表示」のページをご覧ください。
  </description>
     </item>
     
     <item>
-      <title>連合タイムライン（FTL）</title>
+      <title>連合タイムライン(FTL)</title>
       <link>http://faq.imastodon.net/how-to-use/column/ftl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -77,6 +78,29 @@
       <description>地球のアイコンが目印。
 アイマストドンにいる全ユーザー と、アイマストドンの誰かがフォローしている 他インスタンスのユーザー のトゥートのうち、公開範囲が 「公開」 になっているものが表示されます。
 英語表記での「Federated Time Line」の頭文字をとってFTLとも呼ばれます。日本語(im@s)では「ライブステージ」と呼びます。</description>
+    </item>
+    
+    <item>
+      <title>返信(リプライ)</title>
+      <link>http://faq.imastodon.net/how-to-use/reply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/reply/</guid>
+      <description>各トゥートの下部に表示されている返信マークをクリックすると、そのトゥートに対して返信(リプライ)することができます。
+トゥートに返信すると、返信先のユーザの通知カラムにあなたの返信が表示されます。
+返信トゥートは目印として、トゥートの先頭に返信先のユーザ名を&amp;rdquo;@ユーザ名&amp;rdquo;の形で入力します。複数の返信先をもつこともできます。
+また、特定のトゥートに対する返信ではなく、ただ先頭に宛先のユーザ名を&amp;rdquo;@ユーザ名&amp;rdquo;の形で入力したトゥートは、(厳密にはリプライではありませんが)リプライと呼ばれることが多いです。この場合も宛先ユーザの通知カラムにそのトゥートが表示されるため、必ず気づいてもらいたいというときに使うと良いでしょう。</description>
+    </item>
+    
+    <item>
+      <title>お気に入り</title>
+      <link>http://faq.imastodon.net/how-to-use/favorite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/favorite/</guid>
+      <description>各トゥートの下部に表示されている星マークをクリックすると、そのトゥートをお気に入りに登録できます。
+トゥートをお気に入りに登録すると、そのトゥートを投稿したユーザの通知カラムにあなたがトゥートをお気に入りに登録したという通知が届きます。
+自分のお気に入り一覧は『スタート』の『ナビゲーション』メニューから、『お気に入り』（日本語(im@s)の場合は『ティン！一覧』)をクリックすると見ることができます。</description>
     </item>
     
     <item>
@@ -90,17 +114,18 @@
     </item>
     
     <item>
-      <title>ブースト（BT）</title>
+      <title>ブースト(BT)</title>
       <link>http://faq.imastodon.net/how-to-use/boost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://faq.imastodon.net/how-to-use/boost/</guid>
-      <description>投稿をフォローしているユーザーに再度拡散することを指します。Twitterで言うところのリツイートです。
+      <description>各トゥートの下部に表示されているブーストマークをクリックすると、そのトゥートをブーストできます。 ブーストされたトゥートは、自分のフォロワーのホームタイムラインに表示されます。
+トゥートをブーストすると、そのトゥートを投稿したユーザの通知カラムにあなたがトゥートをブーストしたという通知が届きます。
 日本語(im@s)では「わかるわ」と呼びます。</description>
     </item>
     
     <item>
-      <title>ローカルタイムライン（LTL）</title>
+      <title>ローカルタイムライン(LTL)</title>
       <link>http://faq.imastodon.net/how-to-use/column/ltl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -160,19 +185,19 @@
       
       <guid>http://faq.imastodon.net/how-to-use/privacy/direct/</guid>
       <description>公開範囲設定の一つ。封筒のアイコンが目印。
-自分と送信先のホームタイムライン・通知欄にのみ表示されます。
+自分と送信先のホームタイムライン・通知カラムにのみ表示されます。
 Twitterではダイレクトメッセージは別枠でやり取りを行いますが、マストドンではタイムラインの中でやりとりします。通常の返信を行う要領で「@アカウントID」を含んだトゥートを書き、公開範囲設定からダイレクトを選んで送信します。複数の送信先を含むダイレクトトゥートや、既に行われている会話の途中からダイレクトに変更することも可能です。
 英語ではdirect、日本語(im@s)では「機密資料」と呼びます。</description>
     </item>
     
     <item>
-      <title>ホームタイムライン（HTL）</title>
+      <title>ホームタイムライン(HTL)</title>
       <link>http://faq.imastodon.net/how-to-use/column/htl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://faq.imastodon.net/how-to-use/column/htl/</guid>
       <description>家のアイコンが目印。
-フォローしている人と自分の投稿のみが流れるタイムラインです。仲良くなった人は積極的にフォローしてフォロワーになることで、その人の「未収載」「非公開」トゥートが見れるようになります。(詳しくは公開範囲を参照)
+フォローしている人と自分のトゥートのみが流れるタイムラインです。仲良くなった人は積極的にフォローしてフォロワーになることで、その人の「未収載」「非公開」トゥートが見れるようになります。(詳しくは公開範囲を参照)
 英語表記での「Home Time Line」の頭文字をとってHTLとも呼ばれます。日本語(im@s)では「オフィス」と呼びます。</description>
     </item>
     
@@ -253,7 +278,7 @@ NSFWは画像や動画の閲覧注意警告のことです。画像や動画を�
       
       <guid>http://faq.imastodon.net/how-to-use/column/notification/</guid>
       <description>ベルのマークが目印。
-他のユーザーからのアクションがあったときに、お知らせが入ってくるところです。 リプライ(返信)、フォロー、お気に入り、ブーストのアクションが通知されます。
+他のユーザーからのアクションがあったときに、お知らせが入ってくるところです。 返信(リプライ)、フォロー、お気に入り、ブーストのアクションが通知されます。
 日本語(im@s)では「ホワイトボード」と呼びます。</description>
     </item>
     
@@ -290,6 +315,16 @@ NSFWは画像や動画の閲覧注意警告のことです。画像や動画を�
     </item>
     
     <item>
+      <title>アイマス語 (日本語(im@s))</title>
+      <link>http://faq.imastodon.net/unique-feature/imas-lang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/unique-feature/imas-lang/</guid>
+      <description> アイマストドン独自の言語設定です。これによりマストドンの機能の名称がそこはかとなくアイマスっぽいような気がする言葉になります。
+日本語・アイマス語対応表(一部)    日本語 アイマス語     連合タイムライン ライブステージ   ローカルタイムライン 楽屋   ホームタイムライン オフィス   トゥート あふぅ   お気に入り ティン   ブースト わかるわ   返信 Reあふぅ   お気に入りタグ スウィーティー☆なタグ   公開 公開資料   未収載 社内資料   非公開 私的資料   ダイレクト 機密資料    </description>
+    </item>
+    
+    <item>
       <title>カラムの移動・ピン留め</title>
       <link>http://faq.imastodon.net/how-to-use/pin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -297,6 +332,41 @@ NSFWは画像や動画の閲覧注意警告のことです。画像や動画を�
       <guid>http://faq.imastodon.net/how-to-use/pin/</guid>
       <description>マストドンではカラムの並び順を変更したり、ピン留め(固定)して表示数を増やしたりできます。
 各カラムの右上にある歯車マークをクリックするとメニューが表示されます。メニューの右下にある「」「」ボタンでそのカラムの表示位置を左右に移動させることができます。また、メニューの左下にある「ピン留めする」をクリックするとそのカラムは常に表示された状態となり、右側に同じカラムがスタートカラムとして新たに表示されます。既にピン留めされているカラムでは「ピン留めを外す」となっていて、クリックするとそのカラムは非表示になります。</description>
+    </item>
+    
+    <item>
+      <title>ハッシュタグ</title>
+      <link>http://faq.imastodon.net/how-to-use/hashtag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/hashtag/</guid>
+      <description>半角「#」から始まる文字列です。 何かのテーマに沿った投稿のときにキーワードとして一緒に書くことで、クリックすると同じハッシュタグが付いたトゥートを集めたハッシュタグタイムラインを表示させることができます。 #デレラジ #millionradio などでラジオの内容を実況したり、 #みんなのP名刺 のような画像をトゥートするタグもあります。
+お気に入りタグ機能と組み合わせると便利です。</description>
+    </item>
+    
+    <item>
+      <title>ミュート</title>
+      <link>http://faq.imastodon.net/how-to-use/mute/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/mute/</guid>
+      <description>自分のタイムラインから、特定の要素（他のユーザー、他のインスタンス、キーワード）を取り除く（見えなくする）機能です。
+ミュートしたユーザーやインスタンスのトゥートがあなたには表示されなくなり、それらのユーザーが行うブースト、お気に入り、フォローなどのアクションがあなたに通知されなくなります。 あなたのトゥートは、引き続きミュートされたユーザーやインスタンスへも表示されます。あなたがミュートした事実は、ミュートされたユーザーへは通知されません。
+ユーザーミュート 任意のユーザーへのミュートです。 ミュートしたいユーザーのプロフィールを開き、『』ボタンから『ミュート』（日本語(im@s)の場合は『(アカウント名)は黙ってて！』）をクリックします。
+ユーザーミュートの解除 『スタート』の『ナビゲーション』メニューから、『ミュートしたユーザー』（日本語(im@s)の場合は『だまっとけ☆リスト』)を閲覧することができます。ミュートを解除したいユーザーをリストから探し、メガホンのアイコンをクリックします。
+インスタンスミュート アイマストドン以外の任意のインスタンスをまるごとミュートします。 ミュートしたいインスタンスに属するユーザーのプロフィールを開き、投稿数左側の『』マークから『(インスタンスのドメイン)全体を非表示』をクリックします。
+キーワードミュート 詳しくは「特定の単語をミュートしたい！」をご覧ください。</description>
+    </item>
+    
+    <item>
+      <title>ブロック</title>
+      <link>http://faq.imastodon.net/how-to-use/block/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://faq.imastodon.net/how-to-use/block/</guid>
+      <description>特定のユーザーとかかわりを切って、相手に「こちら側のトゥートを見る」ことや、お気に入り、ブースト、返信などの「反応をする」ことをできなくする機能です。
+ブロック方法 ブロックしたいユーザーのプロフィールを開き、投稿数左側の『』マークから『ブロック』をクリックします。 このとき、あなたからブロックしたユーザーへのフォロー、およびブロックされたユーザーからあなたへのフォローは解除されます。
+ブロックの解除方法 『スタート』の『ナビゲーション』メニューから、『ブロックしたユーザー』（日本語(im@s)の場合は『理由あってブロック！』)を閲覧することができます。ブロックを解除したいユーザーをリストから探し、南京錠のアイコンをクリックします。</description>
     </item>
     
     <item>
