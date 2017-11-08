@@ -11,7 +11,7 @@
     
     
     <item>
-      <title>連合タイムライン（FTL）</title>
+      <title>連合タイムライン(FTL)</title>
       <link>http://faq.imastodon.net/how-to-use/column/ftl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -22,7 +22,7 @@
     </item>
     
     <item>
-      <title>ローカルタイムライン（LTL）</title>
+      <title>ローカルタイムライン(LTL)</title>
       <link>http://faq.imastodon.net/how-to-use/column/ltl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -34,13 +34,13 @@
     </item>
     
     <item>
-      <title>ホームタイムライン（HTL）</title>
+      <title>ホームタイムライン(HTL)</title>
       <link>http://faq.imastodon.net/how-to-use/column/htl/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://faq.imastodon.net/how-to-use/column/htl/</guid>
       <description>家のアイコンが目印。
-フォローしている人と自分の投稿のみが流れるタイムラインです。仲良くなった人は積極的にフォローしてフォロワーになることで、その人の「未収載」「非公開」トゥートが見れるようになります。(詳しくは公開範囲を参照)
+フォローしている人と自分のトゥートのみが流れるタイムラインです。仲良くなった人は積極的にフォローしてフォロワーになることで、その人の「未収載」「非公開」トゥートが見れるようになります。(詳しくは公開範囲を参照)
 英語表記での「Home Time Line」の頭文字をとってHTLとも呼ばれます。日本語(im@s)では「オフィス」と呼びます。</description>
     </item>
     
@@ -64,7 +64,7 @@
       
       <guid>http://faq.imastodon.net/how-to-use/column/notification/</guid>
       <description>ベルのマークが目印。
-他のユーザーからのアクションがあったときに、お知らせが入ってくるところです。 リプライ(返信)、フォロー、お気に入り、ブーストのアクションが通知されます。
+他のユーザーからのアクションがあったときに、お知らせが入ってくるところです。 返信(リプライ)、フォロー、お気に入り、ブーストのアクションが通知されます。
 日本語(im@s)では「ホワイトボード」と呼びます。</description>
     </item>
     
