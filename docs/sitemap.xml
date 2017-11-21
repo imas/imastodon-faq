@@ -11,6 +11,10 @@
   </url>
   
   <url>
+    <loc>http://faq.imastodon.net/how-to-use/account/</loc>
+  </url>
+  
+  <url>
     <loc>http://faq.imastodon.net/gyakubiki-faq/mute/</loc>
   </url>
   
@@ -156,6 +160,14 @@
   
   <url>
     <loc>http://faq.imastodon.net/how-to-use/hashtag/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/follow/</loc>
+  </url>
+  
+  <url>
+    <loc>http://faq.imastodon.net/how-to-use/instance/</loc>
   </url>
   
   <url>

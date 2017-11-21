@@ -7,7 +7,7 @@
     <meta name="description" content="">
 
 
-    <title>ブロック :: アイマストドンFAQ</title>
+    <title>フォロー :: アイマストドンFAQ</title>
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
     <link href="/css/nucleus.css" rel="stylesheet">
     <link href="/css/font-awesome.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
     
 
   </head>
-  <body class="" data-url="/how-to-use/block/">
+  <body class="" data-url="/how-to-use/follow/">
     <nav id="sidebar" class="">
 
 
@@ -798,7 +798,7 @@
   
     
       <li data-nav-id="/how-to-use/follow/" class="dd-item
-     
+     active
       ">
         <a href="/how-to-use/follow/">
         <span>フォロー</span> 
@@ -858,7 +858,7 @@
   
     
       <li data-nav-id="/how-to-use/block/" class="dd-item
-     active
+     
       ">
         <a href="/how-to-use/block/">
         <span>ブロック</span> 
@@ -1122,7 +1122,7 @@
 
 
 
- <a href='/'>アイマストドンFAQ</a> > <a href='/how-to-use/'>機能・用語解説</a> > ブロック
+ <a href='/'>アイマストドンFAQ</a> > <a href='/how-to-use/'>機能・用語解説</a> > フォロー
 
  
 
@@ -1141,8 +1141,10 @@
 <ul>
 <li>
 <ul>
-<li><a href="#ブロック方法">ブロック方法</a></li>
-<li><a href="#ブロックの解除方法">ブロックの解除方法</a></li>
+<li><a href="#フォローしたいとき">フォローしたいとき</a></li>
+<li><a href="#フォローを解除したいとき">フォローを解除したいとき</a></li>
+<li><a href="#自分へのフォローを解除してほしいとき">自分へのフォローを解除してほしいとき</a></li>
+<li><a href="#自分へのフォローを承認制にしたいとき">自分へのフォローを承認制にしたいとき</a></li>
 </ul></li>
 </ul></li>
 </ul></li>
@@ -1156,7 +1158,7 @@
         
         <div id="body-inner">
           
-            <h1>ブロック</h1>
+            <h1>フォロー</h1>
           
 
 
@@ -1164,16 +1166,25 @@
 
 
 
-<p>特定のユーザーとかかわりを切って、相手に「こちら側の<a href="../toot">トゥート</a>を見る」ことや、<a href="../favorite">お気に入り</a>、<a href="../boost">ブースト</a>、<a href="../reply">返信</a>などの「反応をする」ことをできなくする機能です。</p>
+<p>特定のユーザーのトゥートが自身の<a href="../column/htl">ホームタイムライン</a>に表示されるようになる仕組みのことです。自分 <strong>を</strong> フォローしているユーザーのことを <strong>フォロワー</strong> 、自分 <strong>が</strong> フォローしているユーザーのことを <strong>フォロイー</strong> と呼ぶことが多いです。</p>
 
-<h4 id="ブロック方法">ブロック方法</h4>
+<p>他の<a href="../instance">インスタンス</a>のユーザーをフォローすることを <strong>リモートフォロー</strong> といいます。</p>
 
-<p>ブロックしたいユーザーのプロフィールを開き、投稿数左側の『<i class="fa fa-bars dropdown__icon"></i>』マークから『ブロック』をクリックします。
-<strong><em>このとき、あなたからブロックしたユーザーへの<a href="../follow">フォロー</a>、およびブロックされたユーザーからあなたへのフォローは解除されます。</em></strong></p>
+<h4 id="フォローしたいとき">フォローしたいとき</h4>
 
-<h4 id="ブロックの解除方法">ブロックの解除方法</h4>
+<p>フォローしたいユーザーがいるときは、そのユーザーのユーザーページに行き、<i class="fa fa-user-plus">フォローアイコン</i>をクリックするとフォローできます。ただし、相手ユーザーが<a href="../account/#非公開アカウント">非公開アカウント</a>である場合はまずはフォロー許可待ちという状態になり、相手の許可を待つことになります。あなたがフォローしたことは相手ユーザーの<a href="../column/notification">通知カラム</a>に通知されます。</p>
 
-<p>『<a href="../column/start">スタート</a>』の『ナビゲーション』メニューから、『<i class="fa fa-ban column-link__icon">ブロックしたユーザー</i>』（日本語(im@s)の場合は『理由あってブロック！』)を閲覧することができます。ブロックを解除したいユーザーをリストから探し、<i class="fa fa-unlock-alt">南京錠のアイコン</i>をクリックします。</p>
+<h4 id="フォローを解除したいとき">フォローを解除したいとき</h4>
+
+<p>フォローを解除したいユーザーがいるときは、そのユーザーのユーザーページに行き、<font color="#2b90d9"><i class="fa fa-user-times"></i></font>フォロー解除アイコンをクリックするとフォロー解除できます。あなたがフォローを解除したことは、相手ユーザーには通知されません。</p>
+
+<h4 id="自分へのフォローを解除してほしいとき">自分へのフォローを解除してほしいとき</h4>
+
+<p>そのような機能はありません。特定の誰かに対して、自分へのフォローを解除してもらいたいときは、理由をその人に<a href="../reply">リプライ</a>で送信して解除してもらうか、それがしづらい場合には自身から<a href="../block">ブロック</a>してください。</p>
+
+<h4 id="自分へのフォローを承認制にしたいとき">自分へのフォローを承認制にしたいとき</h4>
+
+<p>アカウント設定を<a href="../account/#非公開アカウント">非公開アカウント</a>にしてください。</p>
 
 
 <footer class=" footline" >
@@ -1716,6 +1727,26 @@
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -1759,55 +1790,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                        
-                        
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
             
         
                     
@@ -1823,25 +1805,6 @@
                     
                     
 
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
                     
                         
             
@@ -1907,6 +1870,54 @@
             
         
                     
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
             
         
                     
@@ -1933,10 +1944,10 @@
 
 
         
-            <a class="nav nav-prev" href="/how-to-use/mute/" title="ミュート"> <i class="fa fa-chevron-left"></i></a>
+            <a class="nav nav-prev" href="/how-to-use/hashtag/" title="ハッシュタグ"> <i class="fa fa-chevron-left"></i></a>
         
         
-            <a class="nav nav-next" href="/gyakubiki-faq/" title="困ったときには" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+            <a class="nav nav-next" href="/how-to-use/instance/" title="インスタンス" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
