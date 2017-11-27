@@ -6,3 +6,5 @@ alwaysopen = true
 +++
 
 カメラマークから写真をアップロードしたあと、CW横にある『NSFW』を押してトゥートします。
+
+詳しくは[NSFW](/how-to-use/nsfw)をご覧ください。
